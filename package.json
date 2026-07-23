@@ -1,0 +1,42 @@
+{
+  "name": "necro",
+  "version": "0.1.0",
+  "type": "module",
+  "description": "Necromancer CLI - Multi-provider AI agent with necro talk consensus",
+  "bin": {
+    "necro": "dist/cli.js"
+  },
+  "scripts": {
+    "build": "tsup src/cli.ts src/index.tsx --outDir dist --dts --format esm --minify",
+    "dev": "tsup src/cli.ts src/index.tsx --outDir dist --watch --format esm",
+    "start": "node dist/cli.js",
+    "prepublishOnly": "npm run build"
+  },
+  "dependencies": {
+    "clipboardy": "^4.0.0",
+    "conf": "^12.0.0",
+    "ink": "^5.0.0",
+    "ink-text-input": "^5.0.0",
+    "openai": "^4.60.0",
+    "react": "^18.3.0",
+    "uuid": "^9.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^26.1.1",
+    "@types/react": "^18.3.0",
+    "@types/uuid": "^9.0.0",
+    "tsup": "^8.1.0",
+    "typescript": "^5.5.0"
+  },
+  "files": [
+    "dist"
+  ],
+  "keywords": [
+    "ai",
+    "cli",
+    "agent",
+    "necro",
+    "chat"
+  ],
+  "license": "MIT"
+}
