@@ -12,7 +12,7 @@ Multi-provider AI agent with parallel consensus ("necro talk") and live streamin
 ## Install
 
 ```bash
-npm install -g github:koo1140/necro
+npm install github:koo1140/necro --legacy-peer-deps
 ```
 
 Or from local build:
