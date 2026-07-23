@@ -12,13 +12,13 @@ Multi-provider AI agent with parallel consensus ("necro talk") and live streamin
 ## Install
 
 ```bash
-npm install -g @github:yourusername/necro
+npm install -g @github:koo1140/necro
 ```
 
 Or from local build:
 
 ```bash
-git clone https://github.com/yourusername/necro.git
+git clone https://github.com/koo1140/necro.git
 cd necro
 npm install
 npm run build
